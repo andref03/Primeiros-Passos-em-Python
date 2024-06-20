@@ -3,6 +3,7 @@ from veiculo import Veiculo
 class Moto(Veiculo):
     def __init__(self, marca_moto, modelo_moto, tipo):
         super().__init__(marca_moto, modelo_moto)
+        # tipo = ['esportiva', 'casual']
         self._tipo = tipo
     
     @property
