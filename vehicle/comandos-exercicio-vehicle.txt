@@ -5,7 +5,8 @@
     A classe deve ter um atributo protegido _ligado inicializado como False por padrão.
 
 ## 2. Construa o Método Especial str: 
-    Adicione um método especial str à classe Veiculo que retorna uma mensagem formatada com a marca, modelo e o estado de ligado/desligado do veículo.
+    Adicione um método especial str à classe Veiculo que retorna uma mensagem formatada com a marca, modelo
+    e o estado de ligado/desligado do veículo.
 
 ## 3. Crie uma Classe Filha (Carro): 
     Agora, crie uma classe chamada Carro que herda da classe Veiculo. No construtor da classe Carro. 
