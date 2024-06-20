@@ -5,11 +5,11 @@ from moto import Moto
 ## Carros
 carro_001 = Carro('Fiat', 'Kwid', 4)
 carro_003 = Carro('Renault', 'Sandero', 4)
-carro_002 = Carro('Ford', 'Ka Sedan', 4)
+carro_002 = Carro('Honda', 'Civic', 2)
 ## Motos
-moto_001 = Moto('Yamaha', 'XT 3.000', 'Casual')
-moto_002 = Moto('Yamaha', 'XLR 8', 'Casual')
-moto_003 = Moto('General Motors - GM', 'MotoCross', 'Esportiva')
+moto_001 = Moto('Yamaha', 'MT-09', 'Esportiva')
+moto_002 = Moto('Honda', 'CB 500', 'Casual')
+moto_003 = Moto('Harley-Davidson', 'Street 750', 'Esportiva')
 
 def main():
     print(carro_001)
