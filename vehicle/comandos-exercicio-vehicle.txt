@@ -1,4 +1,4 @@
-# Comandos do Exercício
+# Comandos do Exercício sobre Herança
 
 ## 1. Crie uma Classe Pai (Veiculo): 
     Implemente uma classe chamada Veiculo com um construtor que aceita dois parâmetros, marca e modelo.
@@ -32,3 +32,23 @@
 
 ## 9. Exiba as Informações: 
     Para cada instância, imprima no console as informações utilizando o método str.
+
+# Comandos do Exercício sobre Polimorfismo
+
+## 10. Criando método abstrato na Classe Mãe:
+    Na classe Veiculo, crie um método abstrato chamado ligar. 
+    Para isso, faça a importação de "from abc import ABC, abstractmethod".
+    Escreva o decorador @abstractmethod para o método abstrato.
+
+## 11. Acrescentando atributo na Classe Filha:
+    Atribua o atributo específico cor à classe Carro.
+
+## 12. Implementando o método abstrato nas Classes Filhas:
+    Escreva o código para tornar o estado do atributo _ligado para True, na classe Carro e na classe Moto.
+
+## 13. Instanciando mais objetos:
+    No arquivo main.py, instancie três objetos da classe Carro com diferentes características, como marca, modelo e cor.
+
+## 14. Aplicando o método polimórfico:
+    Use o método abstrato ligar() implementado em Carro e Moto, na função main().
+    Mostre na tela as instâncias.
