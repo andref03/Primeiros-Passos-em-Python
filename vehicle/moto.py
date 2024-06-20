@@ -13,3 +13,5 @@ class Moto(Veiculo):
     def __str__(self):
         return f'Marca: {self.marca}\nModelo: {self.modelo}\nEstado do veículo: {self.ligado}\nTipo da moto: {self.tipo}\n'
 
+    def ligar(self):
+        self._ligado = True
